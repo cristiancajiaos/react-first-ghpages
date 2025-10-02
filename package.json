@@ -2,7 +2,6 @@
   "name": "react-first-ghpages",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://cristiancajiaos.github.io/react-first-ghpages",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -10,7 +9,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^7.1.0",
